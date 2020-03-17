@@ -1,0 +1,148 @@
+<!-- 3 ways to add css methods: inline(directly in html element), internal(using <style> tag) within head, exteral(linking external .css file [best option])-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Cheat Sheet</title>
+
+    <!-- internal(in the header, not such a good way) -->
+    <style type="text/css">
+      h2 {
+        color: blue;
+      }
+    </style>
+    <!-- external (linking from css style file)-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- inline(not a good way)-->
+      <h1 style="color:red">Hello World</h1>
+      <!---->
+      <h2>Hello World 2</h2>
+      <h3>Hello World 3</h3>
+
+      <div class="box-1">
+        <h1>Box 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          corrupti assumenda odio dolorum tempora sed? Perferendis dolores
+          reiciendis quisquam placeat deserunt provident optio corporis delectus
+          eligendi! Voluptatum itaque mollitia voluptatem.
+        </p>
+      </div>
+
+      <div class="box-2">
+        <h1>Box 2</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          corrupti assumenda odio dolorum tempora sed? Perferendis dolores
+          reiciendis quisquam placeat deserunt provident optio corporis delectus
+          eligendi! Voluptatum itaque mollitia voluptatem.
+        </p>
+        <a class="button" href=""> Read More</a>
+      </div>
+
+      <div class="categories">
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li><a href="#">Category 3</a></li>
+          <li><a href="#">Category 4</a></li>
+        </ul>
+      </div>
+
+      <form class="myForm">
+        <div class="form-group">
+          <label>Name: </label>
+          <input type="text" name="name" />
+        </div>
+        <div class="form-group">
+          <label>Email: </label>
+          <input type="text" name="email" />
+        </div>
+        <div class="form-group">
+          <label>Message: </label>
+          <textarea name="message"></textarea>
+        </div>
+        <input class="button" type="submit" value="submit" />
+      </form>
+
+      <div class="block">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          culpa ad voluptas quo sapiente explicabo minus ducimus quis, eligendi
+          libero. Eligendi animi tempora quos odit explicabo voluptatibus! A,
+          maxime voluptates.
+        </p>
+      </div>
+
+      <div class="block">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          culpa ad voluptas quo sapiente explicabo minus ducimus quis, eligendi
+          libero. Eligendi animi tempora quos odit explicabo voluptatibus! A,
+          maxime voluptates.
+        </p>
+      </div>
+
+      <div class="block">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          culpa ad voluptas quo sapiente explicabo minus ducimus quis, eligendi
+          libero. Eligendi animi tempora quos odit explicabo voluptatibus! A,
+          maxime voluptates.
+        </p>
+      </div>
+
+      <div id="main-block">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          culpa ad voluptas quo sapiente explicabo minus ducimus quis, eligendi
+          libero. Eligendi animi tempora quos odit explicabo voluptatibus! A,
+          maxime voluptates.
+        </p>
+      </div>
+
+      <div id="sidebar">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          culpa ad voluptas quo sapiente explicabo minus ducimus quis, eligendi
+          libero. Eligendi animi tempora quos odit explicabo voluptatibus! A,
+          maxime voluptates.
+        </p>
+      </div>
+
+      <div class="clr"></div>
+
+      <div class="p-box">
+        <h1>Hello</h1>
+        <h2>Goodbye</h2>
+      </div>
+
+      <ul class="my-list">
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+      </ul>
+
+      <!-- ./container -->
+    </div>
+
+    <a class="fix-me button" href="">Hello</a>
+
+    <div style="margin-top: 500px;"></div>
+  </body>
+</html>
